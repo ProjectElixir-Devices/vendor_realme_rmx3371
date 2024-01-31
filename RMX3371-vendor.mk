@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/odm/etc/acdbdata/MOS/Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/Headset_cal.acdb \
     vendor/realme/RMX3371/proprietary/odm/etc/acdbdata/MOS/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/Speaker_cal.acdb \
     vendor/realme/RMX3371/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/realme/RMX3371/proprietary/odm/etc/bt/htnv20.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/htnv20.bin \
+    vendor/realme/RMX3371/proprietary/odm/etc/bt/htnv20_ch1.bin:$(TARGET_COPY_OUT_ODM)/etc/bt/htnv20_ch1.bin \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/RMX3371/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
@@ -506,6 +508,32 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/realme/RMX3371/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
+    vendor/realme/RMX3371/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/realme/RMX3371/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/RMX3371/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/RMX3371/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
@@ -603,7 +631,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/odm/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img \
     vendor/realme/RMX3371/proprietary/odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img \
     vendor/realme/RMX3371/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_hexagon.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_nnlib_sr.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libaiboost_ubwc.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_ubwc.so \
     vendor/realme/RMX3371/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
+    vendor/realme/RMX3371/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/RMX3371/proprietary/odm/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so \
     vendor/realme/RMX3371/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
@@ -878,6 +915,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/realme/RMX3371/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/realme/RMX3371/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
+    vendor/realme/RMX3371/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/realme/RMX3371/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
     vendor/realme/RMX3371/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy \
     vendor/realme/RMX3371/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
@@ -911,8 +949,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
-    vendor/realme/RMX3371/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
-    vendor/realme/RMX3371/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
     vendor/realme/RMX3371/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
@@ -1380,6 +1416,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/realme/RMX3371/proprietary/vendor/lib/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspatialaudio.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.extcamera@1.0.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/realme/RMX3371/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
@@ -1734,6 +1771,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/realme/RMX3371/proprietary/vendor/lib64/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatialaudio.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/unnhal-acc-hta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hta.so \
@@ -1750,6 +1788,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.oplus.hardware.extcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.extcamera@1.0.so \
+    vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
+    vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/realme/RMX3371/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
